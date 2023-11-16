@@ -4,12 +4,12 @@
 }
 
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy";
   src: url("../fonts/Gilroy-Semibold.ttf");
 }
 
 @font-face {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Merriweather";
   src: url("../fonts/Merriweather-Black.ttf");
 }
 
@@ -24,7 +24,7 @@ body {
   margin: 0 auto;
 }
 
-.button {
+.button{
   border-radius: 8px;
   background: linear-gradient(96deg, #da8023 0%, #e2b438 100%);
   width: 260px;
@@ -37,6 +37,7 @@ body {
   cursor: pointer;
   outline: none;
   font-size: 18px;
+  border:none;
 }
 
 .button:hover{
@@ -138,5 +139,5 @@ body {
 .main-image{
     position: absolute;
     top:-123px;
-    left: 150px;
+    left: calc(100%-991px);
 }
