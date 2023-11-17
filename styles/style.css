@@ -73,13 +73,14 @@ body {
 }
 
 .menu-item {
-  margin-right: 80px;
+  margin-right: 88px;
 }
 
 .menu-item a {
   text-decoration: none;
   cursor: pointer;
   color: white;
+  font-size: 18px;
 }
 
 .menu-item a:hover {
@@ -100,7 +101,7 @@ body {
   user-select: none;
 }
 
-.min-content {
+.main-content {
   padding-top: 103px;
   padding-bottom: 199px;
 }
